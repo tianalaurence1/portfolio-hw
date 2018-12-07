@@ -54,8 +54,23 @@
     }
   }
 
- h1 {
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 30px;
-   color: green;
- }
+    .content {
+      width: 960px;
+      border: 3px solid red;
+      overflow: auto;
+      margin: auto;
+      padding: 10px;
+      text-align: left;
+    }
+
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      color: green;
+    }
+
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      color: green;
+    } 
